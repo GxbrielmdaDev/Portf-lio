@@ -153,6 +153,7 @@ section.hero {
 section.sobre,
 section.tecnologias,
 section.projetos,
+section.lojas,
 section.contato {
   padding: 4rem 2rem;
   background-color: #f5f0f0;
@@ -239,6 +240,41 @@ section h3 {
 .projeto-card h4 {
   margin-bottom: 0.5rem;
 }
+
+/* Lojas: mesmas regras visuais da seção 'projetos' mas com classes independentes */
+.lojas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.loja-card {
+  background: #d4d4d4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.loja-card:hover {
+  transform: translateY(-5px);
+}
+
+.loja-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.loja-card .conteudo-loja {
+  padding: 1rem;
+}
+
+.loja-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* fim das regras de lojas */
 
 .contato-flex {
   display: flex;
@@ -339,7 +375,9 @@ footer {
 .social-icons a {
   color: #ffffff;
   font-size: 1.5rem;
-  transition: color 0.3s, transform 0.3s;
+  transition:
+    color 0.3s,
+    transform 0.3s;
 }
 
 .social-icons a:hover {
