@@ -15,7 +15,27 @@
     <header>
       <div class="container">
         <nav>
-          <ul>
+          <!-- botão hamburger visível em telas pequenas -->
+          <button
+            id="hamburger"
+            class="hamburger"
+            aria-label="Abrir menu"
+            onclick="toggleMenu()"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- menu para desktop (visível em telas maiores) -->
+          <ul class="nav-desktop">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#lojas">Lojas</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+
+          <!-- menu mobile (inicialmente oculto, exibido ao clicar no hamburger) -->
+          <ul id="mobilemenu" class="mobilemenu" aria-hidden="true">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#tecnologias">Tecnologias</a></li>
             <li><a href="#projetos">Projetos</a></li>
