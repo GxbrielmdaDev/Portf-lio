@@ -129,3 +129,20 @@ body.dark-mode form button {
 body.dark-mode form button:hover {
   background: linear-gradient(135deg, #000000, #4f46e5);
 }
+
+/* Menu Hamburger */
+body.dark-mode .hamburger {
+  color: #fff;
+}
+
+body.dark-mode .mobilemenu {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+body.dark-mode .mobilemenu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+body.dark-mode .mobilemenu li a {
+  color: #fff;
+}
