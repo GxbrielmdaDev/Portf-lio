@@ -61,21 +61,24 @@ body.dark-mode .btn-contato:hover {
 body.dark-mode .sobre,
 body.dark-mode .projetos,
 body.dark-mode .tecnologias,
-body.dark-mode .contato {
+body.dark-mode .contato,
+body.dark-mode .lojas {
   background-color: #1b1b1b;
   color: #e0e0e0;
 }
 
 /* Cards de projetos e tecnologia */
 body.dark-mode .projeto-card,
-body.dark-mode .tecnologia-item {
+body.dark-mode .tecnologia-item,
+body.dark-mode .loja-card {
   background-color: #222222;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
 }
 
 body.dark-mode .projeto-card:hover,
-body.dark-mode .tecnologia-item:hover {
+body.dark-mode .tecnologia-item:hover,
+body.dark-mode .loja-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
 }
