@@ -450,11 +450,10 @@ footer {
   display: flex;
 }
 
-/* esconder menu desktop em telas pequenas e mostrar hamburger */
 @media (max-width: 767px) {
   nav {
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end; /* Deixar totalmente a direita */
   }
 
   .nav-desktop {
@@ -463,16 +462,15 @@ footer {
 
   .hamburger {
     display: block;
+    margin-top: 25px; 
   }
 
-  /* garantir que o hero video não cause overflow */
   .hero video {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
   }
 
-  /* Forçar grids a uma coluna em mobile para evitar que itens fiquem muito pequenos */
   .projetos-grid,
   .lojas-grid,
   .tecnologias-grid {
