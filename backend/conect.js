@@ -14,12 +14,12 @@ function enviarMensagem() {
   }
 
   fetch(
-    process.env.BOTDISCORD,
+    "https://discord.com/api/webhooks/1389309775006924880/MUS0gqV0qGhdyKRBGG7I8W3lvYohub9y8t5Q__690qzMaUiUpU1-lqR_o4GhSB4gjUEc",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(conteudo),
-    }
+    },
   )
     .then((response) => {
       if (response.ok) {
