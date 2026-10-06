@@ -25,7 +25,7 @@ Meu foco é o aprendizado contínuo: busco sempre aprimorar a qualidade do meu c
     { label: "Projetos", value: 12 },
     { label: "Tecnologias", value: 10 },
     { label: "Experiência (anos)", value: "1 +" },
-    { label: "Certificações", value: "5+" },
+    { label: "Certificações", value: "9+" },
   ],
   profileImage: "/img/fotoperfil.jpg",
 };

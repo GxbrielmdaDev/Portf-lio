@@ -5,6 +5,7 @@ import { personalInfo } from "../data/portfolio";
 
 const roles = [
   "Desenvolvedor Frontend",
+  "JavaScript & TypeScript",
   "React Developer",
   "UI Developer",
 ];
